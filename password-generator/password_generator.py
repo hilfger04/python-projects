@@ -10,7 +10,7 @@ nr_letters = int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
-#Create a list called password to store letters, numbers and symbols
+
 password_list = []
 
 for _ in range(0, nr_letters):

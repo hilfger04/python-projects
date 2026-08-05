@@ -21,9 +21,6 @@ dictionary = {
 }
 
 
-# result = dictionary["*"](n1= 4, n2= 8)
-# print(result)
-
 def new_calculator():
     print(logo)
     first_num = float(input("What's the first number?: "))

@@ -4,7 +4,7 @@ from art import logo
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
-#Function to check user's guess against actual answer
+
 def check_answer(user_guess, actual_answer, turns):
     """Checks answer against guess, returns the number of turns remaining."""
     if user_guess > actual_answer:
@@ -16,7 +16,7 @@ def check_answer(user_guess, actual_answer, turns):
     else:
         print(f"You got it! The answer was {actual_answer}")
 
-#Function to set difficulty
+
 def set_difficulty():
     level = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
     if level == "easy":

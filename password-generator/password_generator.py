@@ -26,9 +26,8 @@ for _ in range(0, nr_numbers):
     password_list.append(random_number)
 
 
-print(password_list)
 random.shuffle(password_list)
-print(password_list)
+
 
 password = ""
 for char in password_list:

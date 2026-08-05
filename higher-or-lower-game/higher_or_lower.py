@@ -1,4 +1,3 @@
-# Display art.
 from art import logo, vs
 from game_data import data
 import random
@@ -25,7 +24,6 @@ account_b = random.choice(data)
 
 
 while game_should_continue:
-
 
     account_a = account_b
     account_b = random.choice(data)

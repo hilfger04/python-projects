@@ -25,7 +25,7 @@ for _ in range(0, nr_numbers):
     random_number = random.choice(numbers)
     password_list.append(random_number)
 
-print(password_list)
+
 random.shuffle(password_list)
 
 

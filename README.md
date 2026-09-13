@@ -5,8 +5,11 @@ The Complete Python Pro Bootcamp" course. Each folder contains a standalone proj
 
 ## Featured Projects (OOP)
 
-- **coffee-machine** – Coffee vending machine simulator using OOP (Menu, CoffeeMaker, 
-  MoneyMachine classes)
+- **coffee-machine** – Coffee vending machine simulator using OOP (Menu, CoffeeMaker, MoneyMachine classes)
+- **pong-game** - Classic Pong built with the turtle module, using a Paddle class (inheritance from Turtle) and a Ball class with increasing speed and difficulty
+- **snake-game** - Snake built with the turtle module, using Snake, Food, and Scoreboard classes with composition (a snake made up of multiple turtle segments)
+- **quiz-game** - Trivia quiz application using OOP (Question and QuizBrain classes) to manage question flow and scoring
+- **crossing-game** - Road-crossing arcade game built with the turtle module, using Player, CarManager, and Scoreboard classes, with increasing car speed per level
 
 ## Other Projects
 
